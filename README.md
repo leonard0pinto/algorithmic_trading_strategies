@@ -6,7 +6,7 @@ The analysis uses SPTL daily price data, the Effective Federal Funds Rate (EFFR)
 
 The full dataset is split into training, validation, and test sets. Model and parameter selection are performed using the training and validation sets, while final performance is evaluated on an unseen out-of-sample test set.
 
-The portfolio starts with initial capital of $V_0 = 100{, }000 and uses a maximum leverage constraint of $L = 10$. Unused capital is assumed to earn the daily risk-free rate.
+The portfolio starts with initial capital of $100, 000 and uses a maximum leverage constraint of 10x. Unused capital is assumed to earn the daily risk-free rate.
 
 ## Strategies Implemented
 
